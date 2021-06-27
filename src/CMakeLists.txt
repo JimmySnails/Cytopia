@@ -75,6 +75,10 @@ set(SOURCE_FILES
         view/IconButton.{hxx,cxx}
         view/ImageView.{hxx,cxx}
         view/Window.{hxx,cxx}
+        view/Window.inl.hxx
+        view/TextView.{hxx,cxx}
+        view/SelectionItem.{hxx,cxx}
+        view/LanguageSelectionItem.{hxx,cxx}
         model/iModel.{hxx,cxx}
         model/DataModel.hxx
         model/ButtonModel.{hxx,cxx}
@@ -82,13 +86,17 @@ set(SOURCE_FILES
         model/iLocalization.hxx
         model/Localization.{hxx,cxx}
         model/SettingsModel.{hxx,cxx}
+        model/SelectionLayoutModel.{hxx,cxx}
         activity/iActivity.{hxx,cxx}
         activity/MainMenuActivity.{hxx,cxx}
+        activity/LanguageSelectionActivity.{hxx,cxx}
         layout/iLayout.{hxx,cxx}
         layout/AbsoluteLayout.{hxx,cxx}
+        layout/SelectionLayout.{hxx,cxx}
         controller/iController.{hxx,cxx}
         controller/iMouseHandler.{hxx,cxx}
         controller/ButtonHandler.{hxx,cxx}
+        controller/SelectionLayoutController.{hxx,cxx}
         renderer/iRenderer.{hxx,cxx}
         renderer/SDLRenderer.{hxx,cxx}
         )

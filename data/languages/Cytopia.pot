@@ -4478,3 +4478,11 @@ msgstr  ""
 #. This is a description for an object titled: Green Bushes (Medium)
 msgid   "a green bush"
 msgstr  ""
+
+#. This is for a UiElement
+msgid   "Back"
+msgstr  ""
+
+#. This is for a Language Selection Activity
+msgid   "Select a language"
+msgstr  ""

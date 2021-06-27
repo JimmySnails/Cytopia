@@ -25,7 +25,7 @@ public:
   void middleButtonUp(ClickEvent &&event);
   void rightButtonUp(ClickEvent &&event);
   void handleEvent(MousePositionEvent &&);
-  void handleEvent(ScrollEvent &&);
+  void scroll(ScrollEvent &&);
   void handleEvent(ActivitySwitchEvent &&);
 
 private:
@@ -36,6 +36,9 @@ private:
   std::unordered_map<SpatialBlock, HandlerList> m_SpatialMap;
   iMouseHandler *m_LastHovered;
   iMouseHandler *m_Captured;
+
+  void mouseMoved(MousePositionEvent &event);
+  void mouseHover(MousePositionEvent &event);
 };
 
 #endif // MOUSE_CONTROLLER_HXX
